@@ -1,7 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Repositorios\NovaPasta\**" />
+    <EmbeddedResource Remove="Repositorios\NovaPasta\**" />
+    <None Remove="Repositorios\NovaPasta\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QuickBuy.Dominio\QuickBuy.Dominio.csproj" />
+  </ItemGroup>
 
 </Project>
