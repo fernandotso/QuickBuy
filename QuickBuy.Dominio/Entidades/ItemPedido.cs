@@ -15,8 +15,8 @@ namespace QuickBuy.Dominio.Entidades
             if (ProdutoId == 0)
                 AdicionarCritica("Não foi possível identificar qual a referência do produto");
 
-            if(Quantidade == 0)
-                AdicionarCritica("Quantidade não informada")
+            if (Quantidade == 0)
+                AdicionarCritica("Quantidade não informada");
         }
     }
 }

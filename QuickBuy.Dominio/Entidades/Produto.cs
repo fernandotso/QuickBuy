@@ -20,3 +20,4 @@ namespace QuickBuy.Dominio.Entidades
                 AdicionarCritica("Preço não informado");
         }
     }
+}
